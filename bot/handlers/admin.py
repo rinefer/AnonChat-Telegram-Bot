@@ -1,9 +1,3 @@
-"""
-handlers/admin.py — все административные команды.
-
-ВАЖНО: все данные из объектов User извлекаются в примитивы (int/str)
-ВНУТРИ блока with session(), чтобы избежать DetachedInstanceError.
-"""
 import sqlite3
 import time
 from telebot import types
