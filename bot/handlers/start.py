@@ -1,7 +1,3 @@
-"""
-handlers/start.py — базовые обработчики: /start, /stop, /project,
-выбор пола, передача сообщений между собеседниками, лайк/дизлайк.
-"""
 from telebot import types
 from bot.shared import bot, is_allowed, touch, inline_menu, chat_markup, gender_keyboard
 from database.dataEngine import (
