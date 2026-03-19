@@ -1,7 +1,3 @@
-"""
-handlers/vip.py — VIP-панель, команды /vip /subscribe /mysubscription,
-обработка callback-кнопок оплаты и настроек поиска.
-"""
 import sqlite3
 from bot.shared import bot, is_allowed, touch, vip_keyboard, is_vip
 from database.dataEngine import get_vip_search_setting, set_vip_search_setting
