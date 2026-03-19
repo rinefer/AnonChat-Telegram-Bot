@@ -1,6 +1,3 @@
-"""
-handlers/chat.py — профиль пользователя, интересы, перевод текста.
-"""
 from telebot import types
 from deep_translator import GoogleTranslator
 from bot.shared import (
